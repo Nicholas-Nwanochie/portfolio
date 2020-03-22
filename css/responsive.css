@@ -216,7 +216,7 @@ ul.navbar-nav {
 .sticky-menu .navbar-icon {
 	background: #8cc090;
 }
-.banner-shape {
+.banner-shape, .banner-img {
 	right: 0;
 	bottom: 0;
 	left: 0;
@@ -355,6 +355,13 @@ ul.navbar-nav {
 
 /* small mobile :320px. */
 @media (max-width: 767px) {
+
+
+.theme-bg{
+	width: 100vw;
+
+
+	}
 .navbar-toggler {
 	padding: 8px;
 	border-radius: 2px;
@@ -409,7 +416,7 @@ ul.navbar-nav {
 .sticky-menu .navbar-icon {
 	background: #8cc090;
 }
-.banner-shape {
+.banner-shape, .banner-img {
 	right: 0;
 	bottom: 0;
 	left: 0;

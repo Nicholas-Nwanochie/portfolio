@@ -375,7 +375,7 @@ label {
 .side-instagram > a {
 	float: left;
 	width: 33.33%;
-	padding: 0 4px;
+	padding: 0px 0px;
 	margin-bottom: 7px;
 }
 .side-instagram img {
@@ -2399,5 +2399,30 @@ blockquote::before {
     transform: scale(0);
     -webkit-transform: scale(0);
   }
+
+}
+
+.nick{
+	
+  width: 150px;
+  border-radius: 50% 50% 50% 50%;
+  height: 150px;
+
+
+
+  flex-grow: 1;
+
+}
+
+.nick2{
+	
+  width: 550px;
+  border-radius: 50% 50% 50% 50%;
+  height: 550px;
+
+
+
+
+  flex-grow: 1;
 
 }
